@@ -18,5 +18,12 @@ matriz_2=matriz_3.reshape(-1,matriz_3.shape[-1])
 print("dimensiones matriz 2D:", matriz_2.ndim)
 
 #punto 5
-def matriz_dataframe(matriz_2):
-    return pd.DataFrame(matriz_2)
+def matriz_dataframe(matriz):
+    return pd.DataFrame(matriz)
+
+#punto 6
+def cargar_csv(csv_file):
+    return pd.read_csv(csv_file)
+
+def cargar_mat(mat_file):
+    return scipy.io.loadmat(mat_file)
