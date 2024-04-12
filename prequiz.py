@@ -1,5 +1,7 @@
 import numpy as np
 import pandas as pd
+import scipy.io
+
 
 #punto 1
 matriz_4= np.random.rand(30,20,10,2000)
@@ -26,4 +28,4 @@ def cargar_csv(csv_file):
     return pd.read_csv(csv_file)
 
 def cargar_mat(mat_file):
-    return scipy.io.loadmat(mat_file)
+   return scipy.io.loadmat(mat_file)
