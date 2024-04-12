@@ -7,3 +7,8 @@ print(matriz_4.size)
 
 #punto 2
 matriz_3=matriz_4.copy()[:,:,:5]
+
+#punto 3
+print("dimensiones:", matriz_3.ndim)
+print("tamaño:", matriz_3.size)
+print("forma:", matriz_3.shape)
