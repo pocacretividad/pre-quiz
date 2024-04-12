@@ -16,3 +16,7 @@ print("forma:", matriz_3.shape)
 #punto 4
 matriz_2=matriz_3.reshape(-1,matriz_3.shape[-1])
 print("dimensiones matriz 2D:", matriz_2.ndim)
+
+#punto 5
+def matriz_dataframe(matriz_2):
+    return pd.DataFrame(matriz_2)
